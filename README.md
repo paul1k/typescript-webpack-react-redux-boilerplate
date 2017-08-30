@@ -9,7 +9,7 @@ LESS in combination of CSS modules is used for styling components. For running, 
 * [Redux](https://github.com/reactjs/redux)
 * [LESS](https://github.com/less/less.js)
 * [CSS modules](https://github.com/css-modules/css-modules)
-* [Webpack 2](https://webpack.js.org/)
+* [Webpack 3](https://webpack.js.org/)
 * [Tslint](https://palantir.github.io/tslint/)
 
 ## Getting started
