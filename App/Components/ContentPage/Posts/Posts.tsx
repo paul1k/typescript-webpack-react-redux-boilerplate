@@ -7,7 +7,7 @@ const styles: any = require("./Posts.module.less");
 
 interface IPostsProps {
     subreddit: Subreddit;
-};
+}
 
 export default class Posts extends BaseComponent<IPostsProps, {}> {
     doRender(): React.ReactElement<{}> {
@@ -28,4 +28,4 @@ export default class Posts extends BaseComponent<IPostsProps, {}> {
                     }
                 </div>);
     }
-};
+}

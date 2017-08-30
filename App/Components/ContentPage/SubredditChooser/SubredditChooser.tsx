@@ -7,7 +7,7 @@ const styles: any = require("./SubredditChooser.module.less");
 
 interface ISubredditChooserProps {
     fetchSubreddit: (subreddit: string) => void;
-};
+}
 
 export default class SubredditChooser extends BaseComponent<ISubredditChooserProps, {}> {
     doRender(): React.ReactElement<{}> {
@@ -20,4 +20,4 @@ export default class SubredditChooser extends BaseComponent<ISubredditChooserPro
                     </div>
                 </div>);
     }
-};
+}

@@ -23,7 +23,7 @@ class App extends BaseComponent<IAppProps, {}> {
     componentDidMount(): void {
         this.props.loadContent();
     }
-};
+}
 
 function mapDispatchToProps(dispatch: Dispatch<{}>): IAppProps {
     return {

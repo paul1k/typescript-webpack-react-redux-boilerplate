@@ -7,7 +7,7 @@ const styles: any = require("./BodyWrapper.module.less");
 interface IBodyWrapperProps extends React.Props<{}> {
     title: string;
     summary: string;
-};
+}
 
 export default class BodyWrapper extends BaseComponent<IBodyWrapperProps, {}> {
     doRender(): React.ReactElement<{}> {
@@ -19,4 +19,4 @@ export default class BodyWrapper extends BaseComponent<IBodyWrapperProps, {}> {
                     {this.props.children}
                 </div>);
     }
-};
+}

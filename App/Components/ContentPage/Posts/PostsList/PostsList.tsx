@@ -6,7 +6,7 @@ const styles: any = require("./PostsList.module.less");
 
 interface IPostsListProps {
     posts: ReadonlyArray<Post>;
-};
+}
 
 export default class PostsList extends BaseComponent<IPostsListProps, {}> {
     doRender(): React.ReactElement<{}> {
@@ -23,4 +23,4 @@ export default class PostsList extends BaseComponent<IPostsListProps, {}> {
 
         return (<div className={styles.container}>{posts}</div>);
     }
-};
+}

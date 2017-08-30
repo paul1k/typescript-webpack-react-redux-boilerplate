@@ -7,7 +7,7 @@ const styles: any = require("./Header.module.less");
 interface IHeaderProps {
     isActive: boolean;
     title: string;
-};
+}
 
 export default class Header extends BaseComponent<IHeaderProps, {}> {
     doRender(): React.ReactElement<{}> {
@@ -17,4 +17,4 @@ export default class Header extends BaseComponent<IHeaderProps, {}> {
 
         return (<div className={styles.container}>{this.props.title}</div>);
     }
-};
+}

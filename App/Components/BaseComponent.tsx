@@ -35,13 +35,12 @@ abstract class BaseComponent<P, S> extends React.Component<P, S> {
         for (let propName in this.props) {
             propsString += " " + propName;
         }
-        /* tslint:enable */
-
+        /* tslint no-console: ["error", { allow: ["warn", "error"] }] */
         console.error(error, {Component: componentName, ComponentDetail: componentDetail, PropList: propsString});
         console.error("A component (" + componentName + ") had an error during render. " +
                    "Please fix this immediately, even if you don't own this component. " +
                    "This message is designed to be annoying so that the problem is addressed.");
     }
- };
+ }
 
- export default BaseComponent;
+export default BaseComponent;

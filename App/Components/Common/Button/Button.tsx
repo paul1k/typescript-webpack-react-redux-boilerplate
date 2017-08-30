@@ -7,7 +7,7 @@ const styles: any = require("./Button.module.less");
 interface IButtonProps {
     onClick: () => void;
     styleOverride?: string;
-};
+}
 
 export default class Button extends BaseComponent<IButtonProps, {}> {
     doRender(): React.ReactElement<{}> {
@@ -23,4 +23,4 @@ export default class Button extends BaseComponent<IButtonProps, {}> {
                     {this.props.children}
                 </button>);
     }
-};
+}
